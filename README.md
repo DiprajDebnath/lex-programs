@@ -1,2 +1,2 @@
 # lex-programs
-Compiler Designing
+Compiler Design
