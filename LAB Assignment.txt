@@ -1,0 +1,50 @@
+﻿1.  Write a Lex program that copies a file, replacing each nonempty sequence of white space by a single blank.
+2. Write a Lex program that copies a C program, replacing each instance of the keyword float with double.
+3. Write a Lex program which will modify the words in the following way:
+   1. If the first letter is a consonant, move it to the end of the word and then add ay.
+   2. If the first letter is a vowel, just add ay to the end of the word.
+4. Write a Lex program to identify identifiers from a given input source file.
+5. Write a Lex program to count the number of vowels and consonants from an input file and write the results to a file.
+6. Write a Lex program to count the number of lines in a given input source file.
+7. Write a Lex program to count the number of comment lines in a c program. Also eliminate that comment line. (input read from file).
+8. Write a Lex program to identify correctly an inputted 8 bit binary numbers.
+9. Write a YACC program to convert an infix expression into an postfix expression.
+10. Write a lex program to find out all the tokens from the following input C program.
+(input read from file)
+int main()
+{
+// 2 variables
+int a, b;
+a = 10;
+return 0;
+}
+
+
+11. Write a lex program to count the number of tokens and find out all the tokens from the following input C program. (input read from file)
+int main()
+{
+int a = 10, b = 20, c;
+c=a+b;
+printf(“sum is :%d”,c);
+return 0;
+}
+
+
+12. Write a C program to implement the transition diagram for
+   1. Unsigned numbers
+   2. Integers
+   3. Real numbers
+   4. Identifiers
+   5. Relational operators
+13. Write a lex program to identify all the numbers in an input text and then perform the sum of the numbers.
+14. Write a lex program to count the number of the word “the” in an input text.
+15. Write a lex program to count the number of stopwords and remove all of them.
+16. Write a YACC program to design a simple calculator. 
+17. Write a Lex program to design a simple calculator.
+18. Write a lex program to count the number of palindromes present in a input text and write them to a separate text file.
+19. Write a lex program to check valid arithmetic expressions.
+20. Write a lex program to find the length of an input text.
+21. Write a lex program to reverse all the words in an input text.
+22. Write a lex program to find the smallest word in an input text.
+23. Write a lex program to convert lowercase characters to uppercase.  
+24. Write a lex program to sort all the words in an input text as per their length.
